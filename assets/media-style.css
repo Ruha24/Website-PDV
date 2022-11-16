@@ -1,0 +1,705 @@
+
+/* Table */
+@media (min-width: 376px) and  (max-width: 1200px)
+{
+    /* 1 block */
+
+    .top-section{
+        display: block;
+        padding: 39px;
+    }
+    .top-section > img{
+        width: 100%;
+    }
+    .background{
+        width: 20%;
+
+       }
+    .header-link{
+        margin-bottom: 56px;
+    }
+    .title{
+        font-size: 44px;
+    }
+    .header-link{
+        margin: 0;
+    }
+
+    .header-line{
+        width: 104px;
+        margin-bottom: 56px;
+    }
+
+    /* 2 block */
+    .card-top{
+
+        padding: 0;
+        margin: 0;
+        box-shadow: none;
+        border: none;
+        padding-bottom: 88px;
+    }
+    .card-holder{
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .line1, .line2 {
+        display: none;
+    }
+    .card{
+        position: relative;
+        width: 100%;
+        height: 100%;
+
+        background: #FFFFFF;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+
+
+        margin: 0 39px 16px 39px;
+        display: flex;
+        flex-direction: row;
+    }
+    .card > img{
+        padding: 32px;
+
+        width: 92px;
+        height: 92px;
+    }
+    .adaptive > h1{
+        width: 100%;
+
+        padding: 35px 0 20px 0;
+    }
+    .adaptive > p {
+        margin: 0;
+        width: 100%;
+        padding-left: 0;
+
+    }
+
+
+    /* 3 block */
+    .worker{
+        padding: 0 39px;
+        margin-bottom: 88px;
+    }
+    .worker-right-text{
+        display: none;
+    }
+    .worker-text h1{
+        font-size: 44px;
+        width: 90%;
+    }
+    .worker-text p{
+        width: 90%;
+    }
+    .worker1{
+        width: 100%;
+    }
+
+    .worker1 h2{
+        width: 90%;
+    }
+    .worker1 p{
+        width: 90%;
+    }
+
+    /* 4 block */
+
+    .car-left1{
+        padding-left: 0;
+    }
+    .car-text{
+        display: block;
+    }
+    .background-car-2{
+        margin-left: 28%;
+        margin-right: 0;
+    }
+
+    .car-parents h1{
+        width: 30%;
+        font-size: 5vw;
+        padding: 15% 0 0 10%;
+
+    }
+    .car-picture{
+        margin-right: 0;
+    }
+    .car-text{
+        padding: 16px 199px 58px 39px;
+    }
+    .car-text-left h2 {
+        padding-right: 0;
+    }
+    .car-text-right p{
+        padding-right: 0;
+    }
+    /* 5 block */
+
+    .completed{
+        padding: 0 39px 88px 39px;
+    }
+    .completed-top{
+        padding-bottom: 40px;
+    }
+    .completed-top h1{
+        padding-bottom: 32px;
+    }
+    .completed-top p{
+        width: 52%;
+    }
+    .completed-middle{
+        display: block;
+    }
+    .completed-middle-screen:last-child{display: none}
+
+    .completed-middle-screen{
+        position: relative;
+
+    }
+    .completed-middle-screen h2{
+        font-size: 20px;
+        padding: 24px 0 16px 32px;
+    }
+    .completed-middle-screen p{
+        font-size: 16px;
+    }
+
+    article#b.completed-middle-text{
+        padding-top: 0;
+    }
+    .completed-middle{
+
+    }
+    .line3{
+        width: 8%;
+    }
+    .completed-middle-screen img{
+        height: 100%;
+    }
+    .completed-middle-screen #a{
+        position: absolute;
+        bottom: 0;
+        background: white;
+        color: #363738;
+
+        padding-top: 5px;
+        width: 100%;
+    }
+    .completed-middle-screen #b{
+        position: absolute;
+        bottom: 0;
+        background: white;
+        color: #363738;
+
+        width: 100%;
+        padding-top: 35px;
+    }
+
+    /*  6 block*/
+    .stage-1-body img{
+        display: none;
+    }
+    .stage-1-body{
+        padding-left: 11%;
+        width: 65%;
+        margin-left: 88px;
+    }
+    .stage-one-right{
+        margin-left: 0;
+    }
+    .stage h1{
+        padding-left: 39px;
+    }
+    .stage-1{
+        padding-left: 39px;
+    }
+
+    /* 7 block */
+    .companie_title{ margin-left: 39px}
+
+    .companie_content{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    .companie_row{
+        display: flex;
+        flex-direction: column;
+    }
+    .companie_block{
+        padding-top: 24px;
+    }
+    .companie_item{
+        padding-bottom: 45px;
+        justify-content: space-evenly;
+        border: none;
+    }
+
+    /* 8 block */
+
+    .card-1, .card-1-1, .card-1-1-1{
+        display: block;
+    }
+    .card-1 h2, .card-1-1 h2, .card-1-1-1 h2{
+        width: 70%;
+        margin-left: 2vh;
+        font-size: 3vw;
+    }
+    .card-1 p, .card-1-1 p, .card-1-1-1 p{
+        width: 90%;
+        margin-left: 2vh;
+        font-size: 3vw;
+    }
+    .text-employes{
+        margin-top: 16px;
+    }
+    .bot-employees{
+        display: none;
+    }
+    .all-employees{
+        padding-left: 39px;
+    }
+    .employees h1{
+        padding-left: 39px;
+    }
+    .line-employees{
+        width: 40%;
+        margin-left: 2vh;
+    }
+    .social img{
+        width: 10%;
+        height: 10%;
+    }
+    .social{
+        padding-left: 3vh;
+    }
+
+    .men-1{
+        margin-left: 6vh;
+        width: 40%;
+        height: 40%;
+    }
+    .card-1 img{
+        height: 35%;
+        width: 35%;
+    }
+    .social img{
+        width: 10%;
+    }
+
+    /* 9 block  */
+    .contact-body{display: block}
+    .contact-text-right{
+        height: 70%;
+        width: 90%;
+        margin-left: 39px;
+        margin-right: 39px;
+    }
+    .contact h1{
+        padding-left: 39px;
+        width: 80%;
+    }
+    .contact-left{
+        padding-left: 39px;
+    }
+
+    /* 10 block */
+    .img-fb{
+        display: none;
+    }
+    .form{
+        width: 97%;
+        height: 90vh;
+    }
+    .Feedback{
+        padding-left: 39px;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 375px)
+{
+    .top-section{
+        padding: 15px;
+        display: block;
+    }
+    .header-line{display: none}
+    .header-link{border-bottom: 3px solid #FFCE50;}
+    .background{
+        width: 100%;
+        height: 766px;
+    }
+    .title{
+        width: 344px;
+        
+        font-size: 28px;
+        color: #fff;
+    }
+    .title-text{
+        width: 344px;
+
+        font-size: 15px;
+        color: #fff;
+    }
+    .header-link{
+        width: 99px;
+
+        font-size: 14px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    .top-section > img{
+        width: 345px;
+        padding-bottom: 56px;
+    }
+
+    /* 2 block */
+    .card-top{
+        width: 100%;
+        max-width: 345px;
+        margin: 0 15px 64px 15px;
+    }
+    .card-holder{
+        display: flex;
+        flex-direction: column;
+
+        padding-left: 32px;
+        padding-right: 27px;
+    }
+    .line1, .line2{
+        display: none;
+    }
+    .card{
+        padding-bottom: 24px;
+    }
+
+    /* 3 block */
+    .worker{
+        padding: 0 15px;
+    }
+    .worker-right-text{
+        display: none;
+    }
+    .worker-text p{
+        display: none;
+    }
+    .worker1 img{
+        display: none;
+    }
+    .worker1{
+        width: 100%;
+    }
+
+    .worker-text h1{
+        width: 90%;
+        font-size: 28px;
+    }
+    .worker1 p{
+        padding: 0 17px 32px ;
+    }
+    .worker1 h2{
+        padding: 24px 0 16px 16px;
+    }
+
+    /* 4 block */
+
+    .car-parents img{
+        display: none;
+    }
+    .car-text{
+        display: block;
+    }
+    .car-left1{
+        padding-left: 0;
+    }
+    .car-text{
+        padding: 0;
+    }
+    .car-picture{
+        margin: 0 15px 73px 15px;
+        width: 100%;
+    }
+    .car-text-right p{
+        padding-right: 0;
+    }
+    .car-text-left h2 {
+        padding-right: 0;
+    }
+    .car-left1 img{
+        width: 52px;
+        height: 52px;
+    }
+    .car-right1 img{
+        width: 52px;
+        height: 52px;
+    }
+    .car-parents h1{
+        color: #363738;
+        width: 60%;
+        font-size: 28px;
+        padding: 0;
+        margin: 64px 15px 48px 15px;
+        position: relative;
+    }
+    .car-right1 h2{
+        width: 100%;
+        font-size: 18px;
+        padding: 0 0 12px 16px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .car-left1 h2{
+        width: 100%;
+        font-size: 18px;
+        padding: 0 0 12px 16px;
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+    .car-right1 p{
+        width: 100%;
+        font-size: 15px;
+        padding: 0 23px 12px 16px;
+    }
+    .car-left1 p{
+        width: 100%;
+        font-size: 15px;
+        padding: 0 23px 12px 16px;
+    }
+    .car-right1{
+        padding-bottom: 38px;
+    }
+    .car-left1{
+        padding-bottom: 38px;
+    }
+
+    /* 5 block */
+
+    .completed-middle-screen:nth-child(2n){
+        display: none;
+    }
+    .completed-middle-screen:nth-child(3n){
+        display: none;
+    }
+
+    .completed{
+        padding: 0 15px 68px 15px;
+    }
+
+    .completed-top h1{
+        font-size: 28px;
+        width: 100%;
+    }
+    .completed-top p{
+        font-size: 15px;
+        margin: 0;
+
+        width: 90%;
+    }
+    .completed-top{
+        padding-bottom:32px;
+    }
+    .completed-middle-screen h2{
+        padding: 0 0 16px 24px;
+    }
+    .completed-middle-screen p{
+        padding: 0 0 24px 24px;
+    }
+
+    .completed-middle-screen{
+        margin: 0;
+    }
+    .completed-bottom{
+        display: none;
+    }
+
+    /* 6 block */
+    .stage-1-body img{
+        display: none;
+    }
+    .stage-1-body{
+        padding-left: 50px;
+        width: 70%;
+        margin-left: 48px;
+    }
+    .stage-one-right{
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .stage h1{
+        padding-left: 10px;
+        width: 100%;
+        font-size: 28px;
+    }
+    .stage-1{
+        padding-left: 10px;
+        padding-top: 40px;
+    }
+    .stage-one-right p{
+        font-size: 15px;
+        margin-right: 0;
+
+    }
+    .stage-one-right h3{
+        font-size: 18px;
+        width: 100%;
+    }
+    .line-stage{
+        display: none;
+    }
+    .border-img{
+        width: 75px;
+        height: 75px;
+    }
+    .img-1{
+        width: 52px;
+        height: 52px;
+    }
+    .stage-one-right{
+        display: -webkit-box;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+    /* 7 block */
+
+    .companie_row{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .companie_row:last-child{display: none}
+
+    .companie_title {
+        margin: 0 0 56px 15px;
+        color: #363738;
+    }
+    .companie_item{
+        border-right: none;
+        justify-content: space-evenly;
+        padding-bottom: 48px;
+    }
+    /*  8 block */
+    .bot-employees{
+        display: none;
+    }
+    .card-1-1-1{
+        display: none;
+    }
+    .top-empoyees{
+        display: block;
+        padding-bottom: 0;
+    }
+    .card-1-1{
+        width: 345px;
+        margin-left: 0;
+    }
+    .card-1{
+        width: 345px;
+        margin-left: 0;
+    }
+    .all-employees{
+        padding-left: 10px;
+    }
+    .card-1, .card-1-1{
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .employees h1{
+        padding-left: 39px;
+    }
+    .line-employees{
+        width: 55%;
+        margin-bottom: 10px;
+    }
+    .social img{
+        width: 20%;
+        height: 20%;
+        margin-right: 10px;
+    }
+    .social{
+        margin-top: 0;
+    }
+
+    .men-1, .men-2, .men-3, .men-4, .wom-1, .wom-2{
+        margin-left: 4vh;
+        width: 100px;
+        height: 100px;
+    }
+    .employees h1{
+        padding-top: 0;
+        font-size: 28px;
+        padding-left: 10px;
+        padding-bottom: 28px;
+    }
+    .text-employes{
+        margin-top: 4vh;
+        margin-left: 2vh;
+    }
+
+    .card-1 h2, .card-1-1 h2{
+        width: 100%;
+        font-size: 5vw;
+    }
+    .card-1 p, .card-1-1 p{
+        width: 100%;
+        font-size: 4vw;
+    }
+    /* 9 block */
+
+    .contact-body{display: block}
+    .contact-text-right{
+        height: 70%;
+        width: 92%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .contact h1{
+        padding-top: 116px;
+        padding-left: 15px;
+        width: 80%;
+    }
+    .contact-left{
+        padding-left: 15px;
+    }
+    .right-text{
+        display: block;
+    }
+    .contact h1{ font-size: 28px; padding-bottom: 56px}
+    .right-text h2{
+        padding-left: 24px;
+    }
+    .right-text p{ margin: 0; padding-left: 24px; width: 90%}
+
+    /* 10 block */
+
+    .img-fb{
+        display: none;
+    }
+    .form{
+        width: 110%;
+        height: 90vh;
+    }
+    .Feedback{
+        padding-left: 10px;
+    }
+    .Feedback h1{
+        padding-left: 16px;
+        width: 100%;
+        font-size: 28px;
+        padding-bottom: 48px;
+    }
+
+    .button-feedback{
+        width: 90%;
+    }
+    .left-block{
+        margin-left: 16px;
+    }
+    .button-feedback a{
+        padding: 15px 95px;
+        width: 90%;
+    }
+}
